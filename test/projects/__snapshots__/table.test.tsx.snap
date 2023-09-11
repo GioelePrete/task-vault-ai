@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectTable matches snapshot 1`] = `
+<div>
+  <table
+    class="table-auto w-full"
+  >
+    <thead
+      class="bg-gray-300 text-left h-16"
+    >
+      <tr>
+        <th
+          class="px-6 py-3"
+        >
+          ID
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Owner
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Name
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Description
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Status
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Progress
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Priority
+        </th>
+        <th
+          class="px-6 py-3"
+        >
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="bg-white divide-y divide-gray-200"
+    >
+      <tr
+        data-testid="project-row"
+      >
+        <td>
+          1
+        </td>
+        <td>
+          Project A
+        </td>
+        <td>
+          New description project A
+        </td>
+        <td>
+          pending
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          pending
+        </td>
+      </tr>
+      <tr
+        data-testid="project-row"
+      >
+        <td>
+          2
+        </td>
+        <td>
+          Project B
+        </td>
+        <td>
+          New description project B
+        </td>
+        <td>
+          completed
+        </td>
+        <td>
+          100
+        </td>
+        <td>
+          completed
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
