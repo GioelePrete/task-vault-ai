@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    // Target ECMAScript 5, ensuring compatibility with older browsers.
+    "target": "es5",
+    // Include necessary DOM and ESNext typings for the code.
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    // Allow JavaScript files to be part of the compilation.
+    "allowJs": true,
+    // Skip type checking of declaration files.
+    "skipLibCheck": true,
+    // Output directory for compiled files.
+    "outDir": "dist",
+    // Enable strict type checking.
+    "strict": true,
+    // Force consistent casing in file names to prevent conflicts on case-insensitive file systems.
+    "forceConsistentCasingInFileNames": true,
+    // Do not emit compiled output files.
+    "noEmit": true,
+    // Enable interoperability between CommonJS and ES Modules.
+    "esModuleInterop": true,
+    // Use CommonJS module system for the compiled code.
+    "module": "commonjs",
+    // Use Node.js-style module resolution.
+    "moduleResolution": "node",
+    // Allow importing JSON files as modules.
+    "resolveJsonModule": true,
+    // Treat each file as an isolated module to ensure better encapsulation.
+    "isolatedModules": true,
+    // Preserve JSX syntax in the output.
+    "jsx": "preserve",
+    // Enable incremental compilation for faster build times.
+    "incremental": true,
+    // Specify the name of the plugin to be used, in this case, it's "next".
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    // Define path aliases for importing modules.
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  // List of files to include in the compilation process.
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "typings.d.ts"
+  ],
+  // List of files to exclude from the compilation process.
+  "exclude": [
+    "node_modules"
+  ]
+}
